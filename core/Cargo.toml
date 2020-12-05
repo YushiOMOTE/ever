@@ -1,13 +1,13 @@
 [package]
 name = "ever"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["YushiOMOTE <yushiomote@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "Print the build information of your program with minimal boilerplate"
 
 [dependencies]
-ever-macro = { version = "0.1", path = "../macro" }
+ever-macro = { version = "0.2", path = "../macro" }
 proc-macro-hack = "0.5"
 
 [dev-dependencies]
