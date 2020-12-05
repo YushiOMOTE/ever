@@ -1,0 +1,2 @@
+[workspace]
+members = ["core", "macro", "tests/arg", "tests/noarg"]
