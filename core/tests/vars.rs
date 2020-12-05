@@ -15,3 +15,23 @@ fn test_package_description() {
         ever::package_description!()
     );
 }
+
+#[test]
+fn test_build_date() {
+    chrono::DateTime::parse_from_str(ever::build_date!(), "%c %z").unwrap();
+}
+
+#[test]
+fn test_build_mode() {
+    match ever::build_mode!() {
+        "debug" | "release" => {}
+        e => panic!("{}", e),
+    }
+}
+
+#[test]
+fn test_build_dir() {
+    let s = std::path::Path::new(ever::build_dir!());
+    assert!(s.is_dir());
+    assert_eq!(s.file_name().unwrap(), "ever");
+}

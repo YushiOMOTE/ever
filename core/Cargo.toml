@@ -9,3 +9,6 @@ description = "Print the build-time information of your program with minimal boi
 [dependencies]
 ever-macro = { version = "0.1", path = "../macro" }
 proc-macro-hack = "0.5"
+
+[dev-dependencies]
+chrono = "0.4"
