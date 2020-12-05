@@ -5,6 +5,10 @@ authors = ["YushiOMOTE <yushiomote@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "Print the build information of your program with minimal boilerplate"
+homepage = "https://github.com/yushiomote/ever"
+repository = "https://github.com/yushiomote/ever"
+documentation = "https://docs.rs/ever"
+readme = "../README.md"
 
 [dependencies]
 ever-macro = { version = "0.2", path = "../macro" }
