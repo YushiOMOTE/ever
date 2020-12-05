@@ -1,6 +1,6 @@
 # ever
 
-Adds the feature to print the build-time information to your program with minimal boilerplate.
+Adds the feature to print the build information to your program with minimal boilerplate.
 
 [![Latest version](https://img.shields.io/crates/v/ever.svg)](https://crates.io/crates/ever)
 [![Documentation](https://docs.rs/ever/badge.svg)](https://docs.rs/ever)
@@ -19,7 +19,7 @@ fn main() {
 }
 ```
 
-2. Set the environment variable `EVER` to `1` when starting the program. The build-time information is printed and the program exits with status `1`.
+2. Set the environment variable `EVER` to `1` when starting the program. The build information is printed and the program exits with status `1`.
 
 ```bash,ignore
 $ EVER=1 ./your_program
@@ -76,4 +76,4 @@ All the types returned by those macros are `&'static str`.
 
 ## Note
 
-The build-time information is retrieved only when the source file where `ever` macro is called is compiled.
+The build information is retrieved only when the source file where `ever` macro is called is compiled.

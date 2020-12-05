@@ -19,7 +19,7 @@ fn test_package_version() {
 #[test]
 fn test_package_description() {
     assert_eq!(
-        "Print the build-time information of your program with minimal boilerplate",
+        "Print the build information of your program with minimal boilerplate",
         ever::package_description!()
     );
 }
