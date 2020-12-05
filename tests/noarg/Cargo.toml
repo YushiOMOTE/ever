@@ -1,8 +1,9 @@
 [package]
 name = "ever-tests-noarg"
-version = "0.1.0"
+version = "0.1.0-alpha"
 authors = ["YushiOMOTE <yushiomote@gmail.com>"]
 edition = "2018"
+description = "crate to test ever"
 
 [dependencies]
 ever = { path = "../../core" }

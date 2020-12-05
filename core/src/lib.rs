@@ -1,6 +1,6 @@
 #![allow(clippy::needless_doctest_main)]
 
-//! Adds the feature to print the build-time information to your program with minimal boilerplate.
+//! Adds the feature to print the build information to your program with minimal boilerplate.
 //!
 //! 1. Call `ever!()` at the top of `main` function of your program.
 //!
@@ -14,7 +14,7 @@
 //! }
 //! ```
 //!
-//! 2. Set the environment variable `EVER` to `1` when starting the program. The build-time information is printed and the program exits with status `1`.
+//! 2. Set the environment variable `EVER` to `1` when starting the program. The build information is printed and the program exits with status `1`.
 //!
 //! ```bash,ignore
 //! $ EVER=1 ./your_program
@@ -72,12 +72,12 @@
 //!
 //! ## Note
 //!
-//! The build-time information is retrieved only when the source file where `ever` macro is called is compiled.
+//! The build information is retrieved only when the source file where `ever` macro is called is compiled.
 //!
 
 use proc_macro_hack::proc_macro_hack;
 
-/// Prints the build-time information when the environment variable is set.
+/// Prints the build information when the environment variable is set.
 ///
 /// See [`the top page`](index.html) for the usage.
 #[proc_macro_hack]

@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["YushiOMOTE <yushiomote@gmail.com>"]
 edition = "2018"
 license = "MIT"
-description = "Helper macro for `ever`, which prints the build-time information with minimal boilerplate."
+description = "Helper macro for `ever`, which prints the build information with minimal boilerplate."
 
 [lib]
 proc-macro = true
