@@ -12,3 +12,6 @@ proc-macro-hack = "0.5"
 
 [dev-dependencies]
 chrono = "0.4"
+regex = "1.4"
+cargo-lock = "6.0"
+semver = "0.11"
