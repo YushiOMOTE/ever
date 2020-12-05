@@ -3,7 +3,7 @@ use semver::Version;
 
 fn is_match(pattern: &str, input: &str) {
     let regex = Regex::new(pattern).unwrap();
-    assert!(regex.is_match(input));
+    assert!(regex.is_match(input), "regex check failed: `{}`", input);
 }
 
 #[test]
