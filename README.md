@@ -2,6 +2,11 @@
 
 Adds the feature to print the build-time information to your program with minimal boilerplate.
 
+[![Latest version](https://img.shields.io/crates/v/ever.svg)](https://crates.io/crates/ever)
+[![Documentation](https://docs.rs/ever/badge.svg)](https://docs.rs/ever)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Actions Status](https://github.com/YushiOMOTE/ever/workflows/test/badge.svg)](https://github.com/YushiOMOTE/ever/actions)
+
 1. Call `ever!()` at the top of `main` function of your program.
 
 ```rust
